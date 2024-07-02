@@ -1,0 +1,17 @@
+name: aacr_project_genie
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - pip
+  - pip:
+    - synapseclient
+    - "synapseclient[pandas]"
+    - "synapseclient[pandas, pysftp, boto3]"
