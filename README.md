@@ -16,7 +16,7 @@ To create the Conda environment, use the provided `environment.yml` file:
 
 ```bash
 conda env create -f environment.yml
-conda activate your_environment_name
+conda activate aacr_project_genie
 ```
 
 ### Step 2: Authentication
@@ -45,8 +45,3 @@ Replace `[auth_token]`, `[project_SynID]`, and `[local_path]` with your personal
 
 - [Downloading Data Programmatically](https://help.synapse.org/docs/Downloading-Data-Programmatically.2003796248.html)
 - [AACR Project GENIE Public Dataset](https://www.synapse.org/Synapse:syn7222066/files/)
-
-For further assistance, refer to the official Synapse documentation.
-```
-
-Make sure to adjust the `your_environment_name` in the conda activation command to match the name specified in your `.yml` file.
