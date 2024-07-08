@@ -1,7 +1,6 @@
-```markdown
-# AACR Project GENIE Data Download
+# AACR Project Data Download
 
-This repository contains scripts and guidelines for downloading AACR Project GENIE data from Synapse programmatically.
+This repository contains scripts and instructions for downloading AACR Project data from Synapse programmatically.
 
 ## Data Access Guideline
 
