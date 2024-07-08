@@ -2,16 +2,9 @@
 
 This repository contains scripts and instructions for downloading AACR Project data from Synapse programmatically.
 
-## Data Access Guideline
+## Setting Up the Environment and Downloading Data
 
-To access the AACR Project GENIE public dataset, follow these steps:
-
-1. Visit the AACR Project GENIE Public dataset page: [AACR Project GENIE Public](https://www.synapse.org/Synapse:syn7222066/wiki/410922).
-2. Review the dataset files: [AACR Project GENIE Public Files](https://www.synapse.org/Synapse:syn7222066/files/).
-
-## Setting Up the Environment
-
-We recommend using a Conda environment to manage dependencies. A `.yml` file has been provided to create the necessary environment with all required packages installed.
+We recommend using a Conda environment to manage dependencies. `environment.yml` file has been provided to create the necessary environment with all required packages installed.
 
 ### Step 0: Register for a Synapse Account
 
@@ -19,7 +12,7 @@ If you do not have a Synapse account, register here: [Synapse Account Registrati
 
 ### Step 1: Create Conda Environment
 
-To create the Conda environment, use the provided `.yml` file:
+To create the Conda environment, use the provided `environment.yml` file:
 
 ```bash
 conda env create -f environment.yml
